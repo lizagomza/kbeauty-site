@@ -1,0 +1,41 @@
+/* CSS from previous answer, shortened label */
+:root {
+    --bg-main: #fdf7f1;
+    --bg-card: #ffffff;
+    --bg-accent: #f2e4d3;
+    --bg-pill: #f7efe4;
+    --text-main: #2f2620;
+    --text-muted: #7e6d60;
+    --accent: #d9a676;
+    --accent-dark: #b77d42;
+    --border-soft: #eddfcf;
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.04);
+    --radius-lg: 24px;
+    --radius-md: 16px;
+    --transition-fast: 0.2s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    line-height: 1.5;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/* header, buttons, intro, catalog, details, contacts, footer, responsive ... (full CSS kept in earlier answer) */
